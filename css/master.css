@@ -118,6 +118,7 @@ margin-bottom: 10px;
   border: 2px outset red;
   margin: 0 auto;
 }
+
 #MyReflection{
   width :40%;
   border-style:outset;
@@ -125,9 +126,21 @@ margin-bottom: 10px;
   border-color: #fff;
   text-align: center;
   line-height: 30px;
-  margin-left: 25%;
+  margin-left: 15%;
+  margin-right: -15%;
   font-size: 1.2em;
   margin-top: 15px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #MyReflection{
+    margin-left: 30%
+  }
+}
+@media (max-width: 767px) {
+  #MyReflection{
+    width :100%;
+    margin: 0 auto;
+  }
 }
 #LearningSource, #MySkills{
   border-top: 1px outset #fff;
