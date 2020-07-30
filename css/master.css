@@ -141,6 +141,12 @@ margin-bottom: 10px;
     width :100%;
     margin: 0 auto;
   }
+  #zin{
+    left:35%;
+  }
+  #innerbox{
+    left:40%;
+  }
 }
 #LearningSource, #MySkills{
   border-top: 1px outset #fff;
