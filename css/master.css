@@ -133,7 +133,8 @@ margin-bottom: 10px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   #MyReflection{
-    margin-left: 30%
+    width:80%;
+    margin-left: 10%
   }
 }
 @media (max-width: 767px) {
