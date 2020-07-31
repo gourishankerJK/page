@@ -199,8 +199,12 @@ margin-bottom: 10px;
     background-color:rgba(33, 33, 33, 0.9);
     background-size: cover;
     font : 1.2em;
-    line-height:30px;
+      line-height:30px;
+
 }
-section p a {
+div p a {
   color: lightgreen;
+}
+.material-icons{
+  line-height:20px;
 }
