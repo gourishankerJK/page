@@ -7,9 +7,10 @@
       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/triangle.css">
     <title>MY page</title>
   </head>
-  <body>
+  <body  onresize="visi()" >
     <header>
       <h1> Gouri Shanker</h1>
     </header>
@@ -17,10 +18,15 @@
       <div class="container">
         <div class="col-lg-3  col-md-6 col-sm-12">
           <section id= "Profile">
+            <div class="triangleleft">
+            </div>
+            <div class="triangleright">
+            </div><div class="triangletop">
+            </div><div class="trianglebottom">
+            </div>
             <h2>My Portfolio</h2>
             <br>
             <img src="images/gouri.jpg" alt="my oicture" width=60% height=40%;>
-
             <hr>
             <p>Name:<span id= "name">Gouri Shanker</span></p>
             <hr>
@@ -117,4 +123,5 @@
     </footer>
 </div>
   </body>
+  <script type="text/javascript" src="javascript/logic.js"></script>
 </html>
