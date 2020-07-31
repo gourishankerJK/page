@@ -52,3 +52,14 @@
   border: 2px solid darkgreen;
   border-radius: 100%;
 }
+#Profile img{
+  width :60%;
+  height :40;
+}
+a{
+  color:rgba(100,120,0,0.5);
+}
+a:hover{
+  border: 2px outset rgba(12,200,100,0.4);
+  background-color:  rgba(12,200,100,0.4);
+}
