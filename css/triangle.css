@@ -1,0 +1,54 @@
+#Profile{
+  position: relative;
+}
+
+.triangleright{
+  width :0px;
+  height:0px;
+  border-top:5px solid transparent;
+  border-bottom : 5px solid transparent;
+  border-left :  5px solid transparent;
+  position: absolute;
+  border-right :  15px solid rgb(88,240,245);
+  top:0%;
+  right:0%;
+}
+.triangleleft{
+  width :0px;
+  height:0px;
+  border-top:5px solid transparent;
+  border-bottom : 5px solid transparent;
+  border-right :  5px solid transparent;
+  position: absolute;
+  border-left :  15px solid rgb(192,192,192);
+  top:0%;
+  left:0%;
+}
+.triangletop{
+  width :0px;
+  height:0px;
+  border-left:5px solid transparent;
+  border-bottom : 5px solid transparent;
+  border-right :  5px solid transparent;
+  position: absolute;
+  border-top :  15px solid rgb(255,255,0);
+  top:0%;
+  left:25px;
+}
+.trianglebottom{
+  width :0px;
+  height:0px;
+  border-top:5px solid transparent;
+  border-left : 5px solid transparent;
+  border-right :  5px solid transparent;
+  position: absolute;
+  border-bottom :  15px solid lightgreen;
+  bottom:0;
+  left:25px;
+}
+#circle{
+  width :10px;
+  height:10px;
+  border: 2px solid darkgreen;
+  border-radius: 100%;
+}
