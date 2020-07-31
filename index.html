@@ -1,94 +1,101 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/boxing.css">
-      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="css/triangle.css">
-    <link rel="icon" href="svg/gs.ico" type="image/icon">
-    <title>MY page</title>
-  </head>
-  <body  onresize="visi()" >
-    <!-- header -->
-    <header>
-      <h1> Gouri Shanker</h1>
-    </header>
-    <!-- header ending -->
-    <div class="row">
-      <div class="container">
-        <div class="col-lg-3  col-md-6 col-sm-12">
-          <!-- Profile -->
-          <section id= "Profile">
-            <div class="triangleleft">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/boxing.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/triangle.css">
+  <link rel="icon" href="svg/gs.ico" type="image/icon">
+  <title>MY page</title>
+</head>
+
+<body onresize="visi()">
+  <!-- header -->
+  <header>
+    <h1> Gouri Shanker</h1>
+  </header>
+  <!-- header ending -->
+  <div class="row">
+    <div class="container">
+      <div class="col-lg-3  col-md-6 col-sm-12">
+        <!-- Profile -->
+        <section id="Profile">
+          <div class="circle">
+
+          </div>
+          <div class="triangleleft">
+          </div>
+          <div class="triangleright">
+          </div>
+          <div class="triangletop">
+          </div>
+          <div class="trianglebottom">
+          </div>
+          <h2>My Portfolio</h2>
+          <br>
+          <img src="images/gouri.jpg" alt="my picture">
+          <hr>
+          <p>Name:<span id="name">Gouri Shanker</span></p>
+          <hr>
+          <p>Engineer <span id="Engineer"><abbr title="Computer Science and Engineering">(CSE)</abbr></span></p>
+          <hr>
+          <p>From : <span id="location">Jammu &amp; Kashmir</span></p>
+          <br>
+          <br>
+          <h3>Social media links</h3>
+          <hr>
+          <a href="#">Facebook</a>
+          <hr>
+          <a href="#">Instagram</a>
+          <hr>
+          <a href="#">Twitter</a>
+          <hr>
+          <br>
+          <br>
+          <h3>Professional Links</h3>
+          <hr>
+          <a href="#">GitHub</a>
+          <hr>
+          <a href="#">LinkedIn</a>
+        </section>
+        <!-- Profile Ending -->
+        <!-- Quote box -->
+      </div>
+      <div class="col-lg-9  col-md-6 col-sm-12">
+        <section id="quotes">
+          <div id="outerbox">
+            <h2 id="zin">Quote</h2>
+            <div id="innerbox">
+              <p> <span class="q" id="Mistakes">Mistakes</span><br>
+                <span class="q" id="are"> are</span><br>
+                <span class="q" id="p">p</span>
+                <span id="r">r</span>
+                <span id="z">o</span>
+                <span id="o">o</span>
+                <span id="f">f</span><br>
+                <span class="q" id="that">that you are </span><br>
+                <span id=trying>Trying!</span> </p>
             </div>
-            <div class="triangleright">
-            </div><div class="triangletop">
-            </div><div class="trianglebottom">
-            </div>
-            <h2>My Portfolio</h2>
-            <br>
-            <img src="images/gouri.jpg" alt="my picture" >
-            <hr>
-            <p>Name:<span id= "name">Gouri Shanker</span></p>
-            <hr>
-            <p>Engineer <span id="Engineer"><abbr title="Computer Science and Engineering">(CSE)</abbr></span></p>
-            <hr>
-            <p>From : <span id="location">Jammu &amp; Kashmir</span></p>
-            <br>
-            <br>
-            <h3>Social media links</h3>
-            <hr>
-            <a href="#">Facebook</a>
-            <hr>
-              <a href="#">Instagram</a>
-              <hr>
-              <a href="#">Twitter</a>
-                <hr>
-                <br>
-                <br>
-                <h3>Professional Links</h3>
-                 <hr>
-                 <a href="#">GitHub</a>
-                 <hr>
-                 <a href="#">LinkedIn</a>
-          </section>
-          <!-- Profile Ending -->
-          <!-- Quote box -->
-        </div>
-          <div class="col-lg-9  col-md-6 col-sm-12" >
-            <section id="quotes">
-              <div id="outerbox">
-                <h2 id="zin">Quote</h2>
-                <div id="innerbox">
-                  <p> <span class="q" id="Mistakes">Mistakes</span><br>
-                             <span class="q" id="are"> are</span><br>
-                            <span class="q" id="p">p</span>
-                              <span id="r">r</span>
-                               <span id="z">o</span>
-                               <span id="o">o</span>
-                               <span id="f">f</span><br>
-                            <span class="q" id="that">that you are </span><br>
-                            <span id=trying>Trying!</span> </p>
-                  </div>
-                </div>
-                </section>
-              </div>
-        <div class="col-lg-9  col-md-6 col-sm-12" id="myref">
-                    <h2 id="my">My Relfection</h2>
-          <div class="col-lg-6 col-md-12" id="MyReflection">
-            <section id=MySkills>
-              <h3>What I Have Learnt Till Now</h3>
-              <div class=" col-md-6 col-md-12 skill">
-                <ul>
-                  <li>Python</li>
-                  <li>C-language</li>
-                  <li><abbr title="Hyper Text Markup Language">HTML</abbr></li>
-                  <li><abbr title="Cascading Style Sheets">CSS</abbr></li>
-                  <li>Javascript <span id ="qqq">*not that much</span></li>
-                </ul>
+          </div>
+        </section>
+      </div>
+      <div class="col-lg-9  col-md-6 col-sm-12" id="myref">
+        <h2 id="my">My Relfection</h2>
+        <div class="col-lg-6 col-md-12" id="MyReflection">
+          <section id=MySkills>
+            <h3>What I Have Learnt Till Now</h3>
+            <div class=" col-md-6 col-md-12 skill">
+              <ul>
+                <li>Python</li>
+                <li>C-language</li>
+                <li><abbr title="Hyper Text Markup Language">HTML</abbr></li>
+                <li><abbr title="Cascading Style Sheets">CSS</abbr></li>
+                <li>Javascript <span id="qqq">*not that much</span></li>
+              </ul>
               <section id="LearningSource">
                 <h3>Learning Source</h3>
                 <ul>
@@ -98,41 +105,41 @@
                   <li>Google</li>
                   <li>My Project Buddy :<span>Aryan</span></li>
                 </ul>
-          </section>
+              </section>
 
-          </div>
-          </section>
-          </div>
-
-      <div class=" col-md-6  col-md-12" id ="Mylanguage">
-        <section id="language">
-          <h3>Languages Known</h3>
-          <ul>
-            <li>English</li>
-            <li>Hindi</li>
-            <li>Dogri</li>
-            <li>Punjabi</li>
-            <li>Kashmiri</li>
-          </ul>
-        </section>
             </div>
+          </section>
+        </div>
+
+        <div class=" col-md-6  col-md-12" id="Mylanguage">
+          <section id="language">
+            <h3>Languages Known</h3>
+            <ul>
+              <li>English</li>
+              <li>Hindi</li>
+              <li>Dogri</li>
+              <li>Punjabi</li>
+              <li>Kashmiri</li>
+            </ul>
+          </section>
         </div>
       </div>
+    </div>
     <footer id="foot">
-        <div id="dis" class=" col-lg-4  col-lg-4  col-sm-12">
-          <p> <span class="material-icons">warning</span>Disclaimer :This project was created as a dummy project.</p>
-        </div>
-        <div id="thanks" class=" col-lg-4  col-lg-4  col-sm-12">
-          <p>Thanks for visting and having a look at the website.</p>
+      <div id="dis" class=" col-lg-4  col-lg-4  col-sm-12">
+        <p> <span class="material-icons">warning</span>Disclaimer :This project was created as a dummy project.</p>
+      </div>
+      <div id="thanks" class=" col-lg-4  col-lg-4  col-sm-12">
+        <p>Thanks for visting and having a look at the website.</p>
 
-        </div>
-        <div id="help" class=" col-lg-4  col-lg-4  col-sm-12">
-          <p>If you have any suggestion please let me know by <a href="malito:shanker.gouri@hotmail.com">Email</a> </p>
-        </div>
+      </div>
+      <div id="help" class=" col-lg-4  col-lg-4  col-sm-12">
+        <p>If you have any suggestion please let me know by <a href="malito:shanker.gouri@hotmail.com">Email</a> </p>
+      </div>
 
     </footer>
-</div>
-<script  src="javascript/logic.js"></script>
-  </body>
+  </div>
+  <script src="javascript/logic.js"></script>
+</body>
 
 </html>

@@ -1,65 +1,66 @@
-#Profile{
+#Profile {
   position: relative;
 }
 
-.triangleright{
-  width :0px;
-  height:0px;
-  border-top:5px solid transparent;
-  border-bottom : 5px solid transparent;
-  border-left :  5px solid transparent;
+.triangleright {
+  width: 0px;
+  height: 0px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;
   position: absolute;
-  border-right :  15px solid rgb(88,240,245);
-  top:0%;
-  right:0%;
+  border-right: 15px solid rgb(88, 240, 245);
+  top: 0%;
+  right: 0%;
 }
-.triangleleft{
-  width :0px;
-  height:0px;
-  border-top:5px solid transparent;
-  border-bottom : 5px solid transparent;
-  border-right :  5px solid transparent;
+
+.triangleleft {
+  width: 0px;
+  height: 0px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid transparent;
   position: absolute;
-  border-left :  15px solid rgb(192,192,192);
-  top:0%;
-  left:0%;
+  border-left: 15px solid rgb(192, 192, 192);
+  top: 0%;
+  left: 0%;
 }
-.triangletop{
-  width :0px;
-  height:0px;
-  border-left:5px solid transparent;
-  border-bottom : 5px solid transparent;
-  border-right :  5px solid transparent;
+
+.triangletop {
+  width: 0px;
+  height: 0px;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid transparent;
   position: absolute;
-  border-top :  15px solid rgb(255,255,0);
-  top:0%;
-  left:25px;
+  border-top: 15px solid rgb(255, 255, 0);
+  top: 0%;
+  left: 25px;
 }
-.trianglebottom{
-  width :0px;
-  height:0px;
-  border-top:5px solid transparent;
-  border-left : 5px solid transparent;
-  border-right :  5px solid transparent;
+
+.trianglebottom {
+  width: 0px;
+  height: 0px;
+  border-top: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
   position: absolute;
-  border-bottom :  15px solid lightgreen;
-  bottom:0;
-  left:25px;
+  border-bottom: 15px solid lightgreen;
+  bottom: 0;
+  left: 25px;
 }
-#circle{
-  width :10px;
-  height:10px;
-  border: 2px solid darkgreen;
+#Profile img {
+  width: 60%;
+  height: 40%;
+  border: 5px double transparent;
   border-radius: 100%;
 }
-#Profile img{
-  width :60%;
-  height :40;
+
+a {
+  color: rgba(100, 120, 0, 0.5);
 }
-a{
-  color:rgba(100,120,0,0.5);
-}
-a:hover{
-  border: 2px outset rgba(12,200,100,0.4);
-  background-color:  rgba(12,200,100,0.4);
+
+a:hover {
+  border: 2px outset rgba(12, 200, 100, 0.4);
+  background-color: rgba(12, 200, 100, 0.4);
 }
