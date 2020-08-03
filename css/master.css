@@ -5,7 +5,7 @@
   box-sizing: border-box;
   list-style: none;
   font-family: 'Dancing Script', cursive;
-  
+
 }
 
 body {
@@ -229,9 +229,6 @@ header h1 {
   line-height: 30px;
 }
 
-div p a {
-  color: lightgreen;
-}
 
 .material-icons {
   line-height: 20px;

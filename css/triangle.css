@@ -58,6 +58,7 @@
 #Profile a{
   color: black;
   font-family:  arial;
+  font-size: 0.7em;
 }
 a:hover {
   background-color: rgba(12, 200, 100, 0.4);
