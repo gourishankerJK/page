@@ -55,12 +55,10 @@
   border: 5px double transparent;
   border-radius: 100%;
 }
-
-a {
-  color: rgba(100, 120, 0, 0.5);
+#Profile a{
+  color: black;
+  font-family:  arial;
 }
-
 a:hover {
-  border: 2px outset rgba(12, 200, 100, 0.4);
   background-color: rgba(12, 200, 100, 0.4);
 }
